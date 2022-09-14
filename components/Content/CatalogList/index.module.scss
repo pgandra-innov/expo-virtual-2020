@@ -1,0 +1,32 @@
+$catalogWidth: 180px;
+$margin: 20px;
+
+.catalogGroup {
+  width: fit-content;
+}
+
+.catalog {
+  width: $catalogWidth;
+}
+
+.catalog:not(:last-child) {
+  margin-right: $margin;
+}
+
+.catalogImage {
+  max-width: $catalogWidth;
+  max-height: $catalogWidth;
+}
+
+.catalogDescription {
+  white-space: pre-line;
+  text-align: center;
+}
+
+.onlineStoreContainer {
+  margin-left: $margin;
+}
+
+.catalogButton {
+  min-width: 100% !important;
+}

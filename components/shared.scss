@@ -1,0 +1,13 @@
+$expo-blue: #002F6C;
+$active-color: #AEFAFF;
+$inactive-color: #555555;
+$text-grey: #555759;
+$strong-red: #D3224E;
+$expo-green: #2F6C00;
+$content-grey: #EEEEEE;
+
+@mixin mobileMedia {
+  @media (max-width: 700px) {
+    @content;
+  }
+}

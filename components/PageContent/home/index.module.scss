@@ -1,0 +1,30 @@
+@import '../../shared.scss';
+
+.label {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.label,
+.label:hover {
+  color: white;
+}
+
+.indexStepButton,
+.indexStepButton:hover,
+.indexStepButton:active,
+.indexStepButton:focus {
+  background-color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.indexStepButton:after {
+  border: 2px solid $expo-blue;
+}
+
+.indexStepButton {
+  // 8px to include spacing of :after border
+  margin: 8px 8px 15px 8px;
+}

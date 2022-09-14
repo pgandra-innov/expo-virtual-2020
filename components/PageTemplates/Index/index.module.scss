@@ -1,0 +1,19 @@
+.container {
+  font-family: 'Nunito Sans';
+  background-color: black;
+  min-width: 1240px;
+  min-height: 720px;
+}
+
+.imageBackground {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.privacyPolicyLink {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}

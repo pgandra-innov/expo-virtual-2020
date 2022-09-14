@@ -1,0 +1,19 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "standard",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
+  ],
+  "ignorePatterns": ["/public/scripts/*"],
+  "rules": {
+    "react/jsx-uses-vars": 1,
+    "react/react-in-jsx-scope": 0
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

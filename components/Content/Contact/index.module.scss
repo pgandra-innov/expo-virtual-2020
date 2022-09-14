@@ -1,0 +1,16 @@
+@import '../../shared.scss';
+
+.heading {
+  font-weight: bold;
+  color: $text-grey;
+  white-space: pre-line;
+}
+
+.brandImage {
+  width: 120px;
+}
+
+.description {
+  font-size: 1.2rem;
+  white-space: pre-line;
+}

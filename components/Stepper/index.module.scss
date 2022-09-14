@@ -1,0 +1,104 @@
+@import '../shared.scss';
+
+.stepper {
+  height: 150px;
+}
+
+.step {  
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.step:hover {
+  opacity: 1;
+}
+
+.step:not(:first-child) {
+  margin-left: 20px;
+}
+
+.stepLabel {
+  white-space: pre-line;
+  font-weight: bold;
+  letter-spacing: 0.04rem;
+  opacity: 0.7;
+}
+
+.stepLabelActive {
+  opacity: 1;
+}
+
+.stepImage {
+  max-width: 158px;
+  height: 30px;
+}
+
+.stepImage__inactive {
+  filter: grayscale(100%);
+}
+
+.stepButton {
+  border: none;
+  width: 19px;
+  height: 19px;
+}
+
+.stepButton__active,
+.stepButton__active:focus {
+  background-color: $active-color;
+  /* Used for .stepButton__active:after */
+  position: relative;
+}
+
+.stepButton__active:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -8px;
+  bottom: -8px;
+  left: -8px;
+  right: -8px;
+  border-radius: 100px;
+  border: 2px solid $active-color;
+}
+
+.stepButton__complete {
+  background-color: $expo-blue;
+}
+
+.stepRoundedPill {
+  width: 120px;
+  height: 5px;
+  background-color: $inactive-color;
+  margin-left: 20px;
+}
+
+.stepRoundedPill__active {
+  background-image: linear-gradient(to right, $active-color, $inactive-color);
+  background-color: transparent;
+}
+
+.stepRoundedPillComplete {
+  background-color: $expo-blue;
+}
+
+.stepRoundedPill__preComplete {
+  background-image: linear-gradient(to right, $expo-blue, $active-color);
+  background-color: transparent;
+}
+
+.exitStepButton {
+  background-color: $expo-blue;
+  border: 18px solid $expo-blue;
+  position: relative;
+  top: -16px;
+}
+
+.exitStepButton,
+.exitStepButton:hover {
+  color: white;
+}
+
+.exitStepButtonIcon {
+  font-size: 2.1rem;
+}

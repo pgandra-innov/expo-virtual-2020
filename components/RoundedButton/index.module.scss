@@ -1,0 +1,31 @@
+@import '../shared.scss';
+
+.button {
+  font-size: 1.2rem;
+  background-color: $expo-blue;
+  min-width: 244px;
+  padding: 10px 20px;
+}
+
+.button,
+.button:hover {
+  color: white;
+}
+
+.buttonOutlined {
+  background-color: transparent;
+  border-color: $expo-blue;
+}
+
+.buttonOutlined,
+.buttonOutlined:hover {
+  color: $expo-blue;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+
+.actionButton {
+  background-color: $strong-red;
+}

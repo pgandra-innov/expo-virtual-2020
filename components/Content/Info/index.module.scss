@@ -1,0 +1,11 @@
+@import '../../shared.scss';
+
+.heading {
+  white-space: pre-line;
+  color: $text-grey;
+}
+
+.description {
+  font-size: 1.2rem;
+  white-space: pre-line;
+}

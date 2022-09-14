@@ -1,0 +1,50 @@
+@import '../shared.scss';
+
+.videoLinkContainer {
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.videoLinkAnchor {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.videoLinkAnchor:hover {
+  opacity: 1;
+}
+
+.videoLinkStepButton {
+  // 8px to include spacing of :after border
+  margin: 8px 8px 15px 8px;
+}
+
+.videoLinkStepButton,
+.videoLinkStepButton:hover,
+.videoLinkStepButton:active,
+.videoLinkStepButton:focus {
+  background-color: $expo-blue;
+}
+
+.videoLinkText {
+  background: $expo-blue;
+  font-size: 1.5rem;
+}
+
+.heading {
+  font-size: 0.8rem;
+}
+
+.videoLinkTextLabel {
+  white-space: pre-line;
+}
+
+.videoLinkNewDot {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}

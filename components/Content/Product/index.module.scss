@@ -1,0 +1,30 @@
+@import '../../shared.scss';
+
+.brandImage {
+  width: fit-content;
+}
+
+.productCategory {
+  color: $text-grey;
+  font-weight: bold;
+}
+
+.productName {
+  color: $text-grey;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.header {
+  font-weight: bold;
+  color: $text-grey;
+}
+
+.description {
+  white-space: pre-line;
+}
+
+.productImage {
+  max-width: 100%;
+}
+  

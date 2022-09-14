@@ -1,0 +1,43 @@
+@import '../../shared.scss';
+
+.backButtonText {
+  top: -3px;
+}
+
+.contentImage {
+  border: 2px solid $content-grey;
+  background-color: $content-grey;
+  border-radius: 5px;
+}
+
+.contentCategory,
+.contentName,
+.contentHeading {
+  color: $text-grey;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.contentDataContainer {
+  color: $text-grey;
+}
+
+.gridContainer {
+  width: 100%;
+  display: grid;
+  grid-column-gap: 26px;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  position: relative;
+  left: -8px;
+}
+
+.iframe {
+  border: none;
+  height: 900px;
+  background-color: #eee;
+}
+
+.catalogCarouselItem {
+  height: 200px;
+}

@@ -1,0 +1,9 @@
+.videoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.videoImage {
+  max-height: 160px;
+}

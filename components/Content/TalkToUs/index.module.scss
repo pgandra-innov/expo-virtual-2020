@@ -1,0 +1,10 @@
+@import '../../shared.scss';
+@import '../Contact/index.module.scss';
+
+.gridContainer {
+  width: 100%;
+  display: grid;
+  grid-column-gap: 36px;
+  grid-template-columns: auto auto auto;
+  justify-content: start;
+}
