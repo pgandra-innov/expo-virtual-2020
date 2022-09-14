@@ -11,6 +11,7 @@
 - Start dev server: `yarn dev`
 
 ## Additional Commands
+
 - In file `./package.json`, see property `scripts`
 
 # Deployment
@@ -28,3 +29,5 @@ Just push to the following branches, deployment is automatically handled by [Ver
 **Branch:** [master](https://bitbucket.org/buzzbeat/expo-virtual-2020/src/master/)
 
 **URL:** [showroomvirtual.montellano.pt](https://showroomvirtual.montellano.pt/)
+
+**New Branch:** [main](https://github.com/pgandra-innov/expo-virtual-2020)
